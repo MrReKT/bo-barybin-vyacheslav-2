@@ -10,6 +10,15 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
+.CrimText{
+    font-family: 'Crimson Text', serif;
+}
+
+ul{
+    padding-left: 0
+    ;
+}
+
 a{
     text-decoration: none;
 }

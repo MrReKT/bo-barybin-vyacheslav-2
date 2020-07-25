@@ -8,13 +8,15 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-left: 550px;
 }
 
 .contact-menu {
+    margin-left: 550px;
     list-style-type: none;
 }
 
-.CrimsonText {
+.CrimText {
     padding: 5px 60px;
     font-style: italic;
     font-weight: bold;
@@ -24,11 +26,11 @@
     background-color: white;
 }
 
-.CrimsonText:hover {
+.CrimText:hover {
     background-color: rgba(112, 187, 220, 0.2);
 }
 
-.CrimsonText {
+.CrimText {
     padding: 5px 60px;
     font-style: italic;
     font-weight: normal;
@@ -38,11 +40,11 @@
     background-color: white;
 }
 
-.CrimsonText:hover {
+.CrimText:hover {
     background-color: rgba(112, 187, 220, 0.2);
 }
 
-.CrimsonText {
+.CrimText {
     padding: 5px 60px;
     font-weight: normal;
     font-size: 26px;
@@ -51,6 +53,6 @@
     background-color: white;
 }
 
-.CrimsonText:hover {
+.CrimText:hover {
     background-color: rgba(112, 187, 220, 0.2);
 }

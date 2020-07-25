@@ -1,5 +1,5 @@
-.block-services {
-
+.block-services-menu {
+    display: flex;
 }
 
 .Montserrat {
@@ -17,7 +17,14 @@
     color: #FFFFFF;
 }
 
+.block-services-item{
+
+}
+
 .block-text {
+    position: absolute;
+    left: 0;
+    top: 100px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

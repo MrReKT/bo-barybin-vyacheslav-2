@@ -1,11 +1,26 @@
 .block-about {
+position: relative;
+}
+
+.block-about-image-ferst {
 
 }
 
-.Montserrat {
+.block-about-image-two {
+    position: absolute;
+    width:  535.49px;
+    height: 361px;
+    left: 820px;
+    top: 245px
+}
+
+
+.block-text {
+    margin: 15px 0 15px ;
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
+
     color: #1E0606;
 }
 
@@ -15,6 +30,15 @@
     line-height: 25px;
     color: #1E0606;
 }
+
+.block-about-image-three {
+    position: absolute;
+    width: 1180px;
+    height: 39px;
+    left: 362px;
+    top: 604px;
+}
+
 
 .block-about-title {
     font-weight: bold;
