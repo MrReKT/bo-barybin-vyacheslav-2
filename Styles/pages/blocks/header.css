@@ -1,0 +1,55 @@
+.header {
+
+}
+
+.header-logo {
+
+}
+
+
+.header-nav {
+
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-item {
+
+}
+
+.menu-link {
+    font-weight: normal; 
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+    transition: color 0.3s ease-in-out;
+    
+}
+
+.menu-link:hover {
+    color: gray;
+}
+
+.menu-link:active {
+    color: rgba(30, 6, 6, 1 0.5);
+}
+
+.menu-link-batton {
+    font-weight: bold; 
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-link-batton:hover {
+    color: gray;
+}
+
+.menu-link-batton:active {
+    color: rgba(30, 6, 6, 1 0.5);
+}

@@ -3,45 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Styles/Common.css">
+    <link rel="stylesheet" href="Styles/pages/Index.css">
+
     <title>DLK</title>
 </head>
+
 <body>
-    <header>
-        <img src="image/Main.png" alt="">
-            <nav>
+    <header class="header container">
+        <img src="image/Main.png" alt="" class="header-logo">
+            <nav class="header-nav">
                 <ul class="menu">
-                    <li>
+                    <li class="menu-item">
                         <a href="#1" class="menu-link">BLOG</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#2" class="menu-link">CATALOG</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#3" class="menu-link">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a href="#4" class="menu-link">CONTACT US</a>
                     </li>
                 </ul>
             </nav>
+
+            <a href="#4" class="menu-link-batton">CONTACT US</a>
             <img src="image/Лупа.png" alt="">  
     </header>
 
     <main>
-        <section class="block-about">
-            <h1>THE OOH NOO COLLECTION</h1>
-            <p>Designed in Slovenia</p> 
-            <ul>
-                <li>
-                    <a href="#" class="menu-link">EXPLORE NOW</a>
-                </li>
-            </ul>
+        <section class="block-about container">
+            <img src="image/block-about-bg.png" alt="" class="block-about-image">
+            <img src="image/image-block.png" alt="" class="block-about-image">
+            <h1 class="Montserrat">THE OOH NOO COLLECTION</h1>
+            <p class="Crimson text">Designed in Slovenia</p> 
+            <a href="#" class="link">EXPLORE NOW</a>
+            <img src="image/line Brown.jpg" alt="" class="block-about-image">
+            <Free class="block-about-title-big">Free (continental) USA shipping on all orders of $100 USD or more!></p>
+            <img src="image/line(active).png" alt="" class="block-about-image--line">
+            <img src="image/line(active).png" alt="" class="block-about-image-line">
+            <img src="image/line(active).png" alt="" class="block-about-image-line">
+            <img src="image/line(active).png" alt="" class="block-about-image-line">
         </section>
-    <img src="image/image-block.png" alt="">
-    <img src="image/block-about-bg.png" alt="">
         <section class="block-services">
             <h2>Category Products</h2>
-    <div>
+    <div class="block-service-menu">
         <a href="#" class="block-menu">APPAREL KIDS</a>
         <article class="block-services-item">
             <img src="image/Block.png" alt="" class="block-service-image">
@@ -83,7 +93,7 @@
                     <span>Credit</span>
                 </li>
             </ul>
-            <button>LEARN MORE</button>
+            <a href="#" class="link">LEARN MORE</a>
         <p><br>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
         <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank</p>
     </article>
@@ -111,8 +121,8 @@
     <h2 class="block-dising-titile">Design Life Kids</h2>
     <p>About Us</p>
     <p class="block-dising-about-us">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-<button> buy now
-</button>
+<href="#" class="link">buy now 
+</a>
 </article>
 <article class=block-contacts>
     <img src="image/fon-contacts.jpg" alt="" class="block-contacts-image">
@@ -120,6 +130,7 @@
     <h2 class="block-contants-tittle">Contacts</h2>
     <p class="block-contacts-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
 </article>
+
     <footer id="footer" class="footer-1" style="background-color: #434343;">
         <div class="widget">
             <h5 class="widget-title">Navigation</h5>
