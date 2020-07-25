@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.Montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.Crimson {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    box-sizing: border-box;
+    padding-left: 110px;
+    padding-right: 110px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visibility-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.button {
+    border: none;
+}
+
+.link, 
+.button {
+    padding: 9px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover, 
+.button:hover {
+    background-color:#C29974;
+}
+
+.link:active, 
+.button:active {
+    background-color:#CFAF91;
+}
