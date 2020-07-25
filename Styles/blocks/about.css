@@ -1,0 +1,25 @@
+.block-about {
+
+}
+
+.Montserrat {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: #1E0606;
+}
+
+.CrimsonText {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.block-about-title {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

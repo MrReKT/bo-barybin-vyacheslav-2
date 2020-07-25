@@ -1,2 +1,5 @@
-@import url(./blocks/header.css);
-@import url(./blocks/about.css);
+@import url(../blocks/header.css);
+@import url(../blocks/about.css);
+@import url(../blocks/Services.css);
+@import url(../blocks/Contacts.css);
+@import url(../blocks/Award.css);
