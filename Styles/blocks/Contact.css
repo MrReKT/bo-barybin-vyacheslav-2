@@ -1,0 +1,149 @@
+.contact-header{
+
+}
+
+.contact-us-title{
+    margin-left: 345px;
+    margin-top: -87px;
+}
+
+.Contact-R{
+    margin-left: 416px;
+    width: 8px;
+    height: 12px;
+    left: 180px;
+    top: 233px;
+}
+
+Contact-R:hover{
+    opacity: 0.6;
+
+}
+
+.contact-home{
+    margin-left: 346px;
+    margin-top: -26px;
+    width: 18px;
+    height: 25px;
+    left: 110px;
+    top: 226px;
+    transition: color 0.3s ease-in-out
+}
+
+.contact-home:hover{
+    opacity: 0.5;
+}
+
+.contact-home:active{
+    opacity: 0.1;
+}
+
+.contact-catalog{
+    margin-left: 440px;
+    margin-top: -51px;
+    width: 56px;
+    height: 25px;
+    left: 200px;
+    top: 226px;
+    transition: color 0.3s ease-in-out
+}
+
+.contact-catalog:hover{
+    opacity: 0.5;
+}
+
+.contact-catalog:active{
+    opacity: 0.1;
+}
+
+
+.contact-us{
+    margin-left: 238px;
+    width: 680px;
+}
+
+.cantact-us-form{
+    margin-top: -203px;
+    padding: 42px 40px; 
+    background-color: #E5EAF8;;
+}
+
+.contact-us-row-two{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.contact-us-row-two .contact-us-input-wrapper{
+    padding: 0 10px;
+    width: 50%;
+}
+
+.contact-us-input-wrapper{
+    margin-top: 20px;
+}
+
+.contact-us-input-label{
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+}
+
+.contact-us-input{
+    box-sizing: border-box;
+    padding: 14px 20px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.contact-us-input:hover,
+.contact-us-input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-us-input:active,
+.contact-us-input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-us-input--textereea{
+    resize: none;
+}
+
+.contact-us-Submit{
+    margin-top: 20px;
+}
+
+.contact-us-input-wrapper{
+    display: flex;
+}
+
+.contact-us-input-wrapper--column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-us-input-wrapper--column .contact-us-input{
+    margin-top: 6px;
+}
+
+.Montserrat{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+
+}
+
+.text-box-1{
+    margin-left: 880px;
+    margin-top: 11px;
+}
+
+.title{
+    margin-top: 50px;
+}

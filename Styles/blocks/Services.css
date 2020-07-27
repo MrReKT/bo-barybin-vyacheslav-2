@@ -14,12 +14,25 @@
     top: 233px;
 }
 
+.Vector-R:hover{
+    opacity: 0.6;
+}
+
 .block-home{
     margin-top: -26px;
     width: 18px;
     height: 25px;
     left: 110px;
     top: 226px;
+    transition: color 0.3s ease-in-out
+}
+
+.block-home:hover{
+    opacity: 0.5;
+}
+
+.block-home:active{
+    opacity: 0.1;
 }
 
 .block-catalog{
@@ -29,8 +42,16 @@
     height: 25px;
     left: 200px;
     top: 226px;
+    transition: color 0.3s ease-in-out
 }
 
+.block-catalog:hover{
+    opacity: 0.5;
+}
+
+.block-catalog:active{
+    opacity: 0.1;
+}
 
 .block-service-list{
     display: flex;
