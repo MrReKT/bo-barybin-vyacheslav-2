@@ -14,6 +14,7 @@
 }
 
 .block-awards_item {
+    margin-top: 100px;
     padding: 0 10px;
 }
 
@@ -32,4 +33,16 @@
 
 .block-award-image {
     transition: opacity 0.3s ease-in-out;
+}
+
+.apple{
+    margin-top: -7px;
+}
+
+.eltex{
+    margin-top: 6px;
+}
+
+.owox{
+    margin-top: 12px;
 }

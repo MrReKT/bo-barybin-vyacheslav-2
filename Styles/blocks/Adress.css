@@ -10,12 +10,25 @@
     text-transform: uppercase;
 }
 
-.block-contacts-image {
+.block-m-text{
+    margin-top: -390px;
+    margin-left: 638px;
+}
 
+.block-contacts-image {
+    margin-left: 614px;
+    margin-top: -215px;
+}
+
+.block-contacts-image-maps {
+    margin-left: 648px;
+    margin-top: -45px;
 }
 
 .block-contacts-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+    margin-top: 28px;
+    margin-left: 656px;
 }

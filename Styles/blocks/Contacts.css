@@ -1,4 +1,4 @@
-.contact-title {
+.contact{
 
 }
 
@@ -9,6 +9,11 @@
     text-transform: uppercase;
     color: #1E0606;
     margin-left: 550px;
+}
+
+.block-contact{
+    margin-left: 550px;
+    margin-top: 105px;
 }
 
 .contact-menu {
@@ -55,4 +60,18 @@
 
 .CrimText:hover {
     background-color: rgba(112, 187, 220, 0.2);
+}
+
+.block-button{
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.text-contact{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.image-woman{
+    margin-top: -476px;
 }

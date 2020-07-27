@@ -1,5 +1,5 @@
 .block-about {
-position: relative;
+
 }
 
 .block-about-image-ferst {
@@ -16,10 +16,11 @@ position: relative;
 
 
 .block-text {
-    margin: 15px 0 15px ;
+    margin-top: -325px;
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
+    margin-left: 124px;
 
     color: #1E0606;
 }
@@ -31,6 +32,14 @@ position: relative;
     color: #1E0606;
 }
 
+.block-text-D{
+    margin-left: 122px;
+}
+
+.block-link{
+    margin-left: 122px;
+}
+
 .block-about-image-three {
     position: absolute;
     width: 1180px;
@@ -39,11 +48,16 @@ position: relative;
     top: 604px;
 }
 
-
 .block-about-title {
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
+    top: 12px;
     color: #FFFFFF;
 }
+
+.block-title-text{
+    margin-top: 12px;
+}
+
